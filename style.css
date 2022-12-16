@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(10, 83, 8);
+    font-family: 'Unbounded', cursive;
+    color: white;
+}
+#score{
+    float: left;
+}
+#timer{
+    float: right;
+}
+#show_sketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    float: center;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+#Score{
+  font-size: 30px;
+ margin-left: 100px;
+ float: left;
+
+}
+
+#Timer{
+  font-size: 30px;
+ margin-right: 100px;
+ float: right;
+  
+}
+
+#sketch_to_drawn{
+  font-size: 25px;
+  color: rgb(255, 0, 0);
+}
+#label{
+  font-size: 20px;
+  }
+#confidence{
+  font-size: 20px;
+  }
+
+canvas 
+{
+  border:5px solid white;
+  border-radius:20px;
+  margin-top:150px;
+  box-shadow:5px 5px 5px grey;
+  box-shadow: 1px 1px 38px #ffffff;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+
+from {box-shadow: 1px 1px 38px grey;}
+to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+{
+  padding-top:10px;
+  font-size:25px;
+  
+}
+
